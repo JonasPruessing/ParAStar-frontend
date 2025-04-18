@@ -1,0 +1,9 @@
+[build]
+  command   = "npm install && npm run build"
+  publish   = "dist"
+
+[[redirects]]
+  from = "/route"
+  to   = "https://parastar-backend.onrender.com/route"
+  status = 200
+  force = true
